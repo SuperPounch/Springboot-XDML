@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="xdml@localhost" uuid="2fa34b9c-3e65-4e08-9270-1331a0d2b084">
+    <data-source source="LOCAL" name="spboot@localhost" uuid="6063ea07-f3ef-430d-a3ae-68ec64f46b41">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/xdml</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/spboot</jdbc-url>
     </data-source>
   </component>
 </project>

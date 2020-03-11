@@ -5,6 +5,7 @@ package hello.configuration;
  * @create_TIME 2020-03-01-12:56
  */
 
+import hello.mapper.UserMapper;
 import hello.service.UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,8 +14,8 @@ import org.springframework.context.annotation.Configuration;
 public class JavaConfiguration {
 
     @Bean
-    public UserService  userService() {
-        return new UserService();
+    public UserService  userService(UserMapper userMapper) {
+        return new UserService(userMapper);
     }
 
    /* @Bean
